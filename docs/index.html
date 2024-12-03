@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>MentorMate | Project Page</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="index.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+
+</head>
+
+<body class="starter-page-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <h1 class="sitename">MentorMate</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#Introduction">About</a></li>
+          <li><a href="#Tec">Tec Stack</a></li>
+          <li><a href="#call-to-action">Links</a></li>
+          <li><a href="#team">Team</a></li>
+          
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+
+    </div>
+  </header>
+
+  <main class="main">
+
+   <!-- Hero Section -->
+   <section id="hero" class="hero section dark-background">
+
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 text-center" data-aos="fade-up" data-aos-delay="100">
+          <h2><span>Personalized Tutor for A/L Students Using <span class="underlight">GenAI</span></h2>
+          <p>Your Study Companion, Anytime, Anywhere.</p>
+          <a href="https://mentor-mate.org" class="btn-get-started" target="_blank" rel="noopener noreferrer">Visit MentorMate</a>
+
+        </div>
+      </div>
+    </div>
+
+  </section><!-- /Hero Section -->
+
+    <!-- Starter Section Section -->
+    <section id="Introduction" class="starter-section section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Introduction</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up">
+        <p>
+          Mentor-Mate is an AI-powered educational platform tailored for Sri Lankan Advanced Level (A/L) students. It provides personalized support by answering study-related questions with curriculum-aligned accuracy and offering detailed feedback on model question answers. Using a robust Retrieval-Augmented Generation (RAG) pipeline, Mentor-Mate ensures reliable, curriculum-specific responses while minimizing AI hallucinations. This innovative platform transforms traditional study methods into an interactive and engaging learning experience.</p>
+      </div>
+
+    </section><!-- /Starter Section Section -->
+  
+      <!-- Starter Section Section -->
+      <section id="starter-section" class="starter-section section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>High Level Architecture</h2>
+        </div><!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up"><div class="pic"><img src="assets/img/diagram.png" class="img-fluid" alt=""></div></div>
+        <br>
+        <div class="container" data-aos="fade-up">
+          <p>The block diagram illustrates the architecture of Mentor-Mate's AI-powered personalized tutor system. When a user asks a question, the platform processes it using a combination of a large language model (LLM), a vector database for semantic search, and a custom retrieval-augmented generation (RAG) pipeline. Personal information, previous chat history, and relevant resources are utilized to provide accurate, curriculum-specific, and context-aware responses. The system integrates chat memory to maintain conversation continuity and leverages embedding-based document retrieval for precise and reliable answers, creating an engaging and effective learning experience for A/L students.</p>
+          <br>
+          <p>The MentorMate platform features a dedicated Unit-Wise Question Platform designed to help students evaluate their understanding of individual topics in the Biology syllabus. This functionality enables students to engage with model questions structured according to specific syllabus units and receive personalized feedback and grading based on their responses.</p>
+        </div>
+
+        <div class="container" data-aos="fade-up"><div class="pic"><img src="assets/img/Chatbot.png" class="img-fluid" alt=""></div></div>
+        <br>
+        <br>
+        <div class="container" data-aos="fade-up"><div class="pic"><img src="assets/img/UnitQ.png" class="img-fluid" alt=""></div></div>
+  
+      </section><!-- /Starter Section Section -->
+
+      <section id="Tec" class="clients section">
+
+        <div class="container">
+  
+          <div class="swiper init-swiper">
+            <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 600,
+                "autoplay": {
+                  "delay": 5000
+                },
+                "slidesPerView": "auto",
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "type": "bullets",
+                  "clickable": true
+                },
+                "breakpoints": {
+                  "320": {
+                    "slidesPerView": 2,
+                    "spaceBetween": 40
+                  },
+                  "480": {
+                    "slidesPerView": 3,
+                    "spaceBetween": 60
+                  },
+                  "640": {
+                    "slidesPerView": 4,
+                    "spaceBetween": 80
+                  },
+                  "992": {
+                    "slidesPerView": 6,
+                    "spaceBetween": 120
+                  }
+                }
+              }
+            </script>
+            <div class="container section-title" data-aos="fade-up">
+              <h2>Tech Stack</h2>
+            </div><!-- End Section Title -->
+            <div class="swiper-wrapper align-items-center">
+              <div class="swiper-slide"><img src="assets/img/Tec/Python.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="assets/img/Tec/Flask.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="assets/img/Tec/MySQL2.svg" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="assets/img/Tec/React3.svg" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="assets/img/Tec/Groq2.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="assets/img/Tec/AWS2.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="assets/img/Tec/Meta.png" class="img-fluid" alt=""></div>
+            </div>
+          </div>
+  
+        </div>
+  
+      </section><!-- /Clients Section -->
+
+      <section id="UserFeedback">
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Getting User Feedback</h2>
+        </div>
+        <div class="slideshow-container">
+
+          <!-- Slide 1 -->
+          <div class="mySlides fade">
+            <img src="assets/img/FeedBack/ChamathFeed.jpg" style="width:100%">
+          </div>
+        
+          <!-- Slide 2 -->
+          <div class="mySlides fade">
+            <img src="assets/img/FeedBack/YohanFeed.jpg" style="width:100%">
+          </div>
+        
+          <!-- Slide 3 -->
+          <div class="mySlides fade">
+            <img src="assets/img/FeedBack/ChamodiFeed.jpg" style="width:100%">
+          </div>
+        
+          <!-- Navigation Dots -->
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+          </div>
+        
+        </div>
+        
+
+        
+        
+
+      </section>
+
+      <!-- Call To Action Section -->
+      <section id="call-to-action" class="call-to-action section dark-background">
+
+        <div class="container">
+          <div class="pic"><img src="assets/img/Chatbot.png" alt="" class="img-fluid"></div>
+          <div class="content row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+            <div class="col-xl-10">
+              <div class="text-center">
+                <h3>Mentor-Mate.org</h3>
+                <a class="cta-btn" href="https://mentor-mate.org">Visit MentorMate</a>
+                <a class="cta-btn" href="https://github.com/cepdnaclk/e20-co227-Mentormate">Project Repository</a>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </section><!-- /Call To Action Section -->
+     
+
+</main>
+
+
+    <!-- Team Section -->
+    <section id="team" class="team section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Our Team</h2>
+  
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/Damayanthi.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <br>
+                <br>
+                <h4>Dr. Damayanthi Herath</h4>
+                <p><b>Supervisor</b></p>
+                <p><a href="mailto:damayanthiherath@eng.pdn.ac.lk">damayanthiherath@eng.pdn.ac.lk</a></p>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/Yohan.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <br>
+                <br>
+                <h4>Yohan Senanayake</h4>
+                <p>E/20/363</p>
+                <p><a href="mailto:e20363@eng.pdn.ac.lk">e20363@eng.pdn.ac.lk</a></p>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/Chamath.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <br>
+                <br>
+                <h4>Chamath Rupasinghe</h4>
+                <p>E/20/342</p>
+                <p><a href="mailto:e20342@eng.pdn.ac.lk">e20342@eng.pdn.ac.lk</a></p>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/Chamodi.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <br>
+                <br>
+                <h4>Chamodi Senaratne</h4>
+                <p>E/20/365</p>
+                <p><a href="mailto:e20365@eng.pdn.ac.lk">e20365@eng.pdn.ac.lk</a></p>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/Rashmika.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <br>
+                <br>
+                <h4>Rashmika Sewmini</h4>
+                <p>E/20/370</p>
+                <p><a href="mailto:e20370@eng.pdn.ac.lk">e20370@eng.pdn.ac.lk</a></p>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Team Section -->
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#Introduction">About</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="https://github.com/cepdnaclk/e20-co227-Mentormate">GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+
+
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/Slideshow.js"></script>
+
+</body>
+
+</html>

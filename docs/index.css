@@ -1,0 +1,35 @@
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    max-width: 80%; /* Set width as needed */
+    height: 90vh; /* Responsive height */
+    margin: auto;
+    overflow: hidden;
+    background-color: #000; /* Fallback color */
+  }
+  
+  /* Slides */
+  .mySlides {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0; /* Start hidden */
+    z-index: 1; /* Layer below active slides */
+    transition: opacity 1.5s ease-in-out; /* Smooth fade effect */
+  }
+  
+  .mySlides.active {
+    opacity: 1; /* Fully visible */
+    z-index: 2; /* Bring active slide to front */
+  }
+  
+  /* Image styling */
+  .mySlides img {
+    width: 100%; /* Ensure the image fits the width */
+    height: 100%; /* Ensure the image fits the height */
+    object-fit: cover; /* Scale the image to cover the container without distortion */
+    display: block; /* Removes inline spacing issues for images */
+  }
+  
